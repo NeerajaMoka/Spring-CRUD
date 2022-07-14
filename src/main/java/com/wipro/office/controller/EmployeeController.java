@@ -55,7 +55,7 @@ public class EmployeeController
 		ApiResponse response = empService.updateEmployee(emp);
 		return response;
 	}	
-	
+//deteting
 	@DeleteMapping("/delete/{empid}")
 	public ApiResponse deleteEmployee(@PathVariable(name = "empid") Integer empId) 
 	{
